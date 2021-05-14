@@ -1,0 +1,33 @@
+.title-border {
+    height: 70px;
+    background-color: black;
+}
+
+.title-logo-image {
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.title-navigation {
+    float: right;
+    width: 460px;
+    /* background-color: rgba(255, 255, 255, 0.3); */
+}
+
+.title-navigation li {
+    float: left;
+    width: 20%;
+}
+
+.title-navigation a {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+}
