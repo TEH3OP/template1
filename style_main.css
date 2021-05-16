@@ -21,8 +21,7 @@
     color: rgba(255, 255, 255, 0.22);
 }
 
-.main-left-big-description,
-.main-left-small-description {
+.main-left-big-description, .main-left-small-description {
     margin-top: 24px;
     font-size: 36px;
     color: #ffffff;
@@ -59,6 +58,7 @@ button.main-left-button {
 }
 
 .main-right-inputs-frame {
+    position: relative;
     margin-top: 30px;
     float: right;
     background-color: white;
@@ -73,6 +73,16 @@ button.main-left-button {
     line-height: 55px;
     font-size: 20px;
     font-weight: bold;
+}
+
+.main-inputs-button {
+    position: absolute;
+    height: 55px;
+    width: 100%;
+    bottom: 0px;
+    border: none;
+    color: white;
+    background: #ff9b51
 }
 
 .main-input-label {
