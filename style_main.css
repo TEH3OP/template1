@@ -82,7 +82,11 @@ button.main-left-button {
     bottom: 0px;
     border: none;
     color: white;
-    background: #ff9b51
+    background: #ff9b51;
+}
+
+.my_class1{
+    color: red;
 }
 
 .main-input-label {
