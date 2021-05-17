@@ -21,7 +21,8 @@
     color: rgba(255, 255, 255, 0.22);
 }
 
-.main-left-big-description, .main-left-small-description {
+.main-left-big-description,
+.main-left-small-description {
     margin-top: 24px;
     font-size: 36px;
     color: #ffffff;
@@ -83,10 +84,6 @@ button.main-left-button {
     border: none;
     color: white;
     background: #ff9b51;
-}
-
-.my_class1{
-    color: red;
 }
 
 .main-input-label {
