@@ -138,11 +138,20 @@ button.main-left-button:hover {
     color: #86878b;
 }
 
-.md-col-social-buttons {
+.md-col-social-buttons-frame {
     width: 67%;
+}
+
+.md-col-social-buttons-frame i {
+    width: 13.5%;
     height: 100%;
-    /* background-color: rgba(0, 0, 255, 0.2); */
-    background-image: url(pics/Social_Media_Icons.png);
-    background-repeat: no-repeat;
-    background-position: right;
+    line-height: 108px;
+    text-align: center;
+    height: 108px;
+    color: #cccccc;
+    font-size: 48px;
+}
+
+.md-col-social-buttons-frame i:hover {
+    color: #aaaaaa;
 }
