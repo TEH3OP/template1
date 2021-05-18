@@ -27,7 +27,11 @@
     font-weight: 600;
     text-decoration: none;
     display: block;
-    text-align: right;
+    text-align: center;
     height: 70px;
     line-height: 70px;
+}
+
+.title-navigation a:hover{
+    background-color: #303030;
 }

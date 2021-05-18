@@ -4,7 +4,7 @@
 
 .main-background {
     background-color: #9a9a9a;
-    height: 641px;
+    padding-bottom: 138px;
 }
 
 .main-your-picture {
@@ -50,6 +50,10 @@ button.main-left-button {
     color: white;
 }
 
+button.main-left-button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
 .main-left-small-description {
     margin-top: 37px;
     font-size: 16px;
@@ -83,7 +87,11 @@ button.main-left-button {
     bottom: 0px;
     border: none;
     color: white;
-    background: #ff9b51;
+    background: rgb(255, 155, 81);;
+}
+
+.main-inputs-button-submite:hover{
+    background-color: rgb(225, 125, 51);
 }
 
 .main-input-label {
